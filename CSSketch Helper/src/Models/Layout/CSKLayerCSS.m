@@ -223,6 +223,8 @@
     }
     
     CSK_MSTextLayer *textLayer = (CSK_MSTextLayer *)layer;
+//    MSTextLayer *myl;
+    
 
     NSString *currentString = textLayer.stringValue;
     NSString *newString = nil;
@@ -279,8 +281,9 @@
                                               alpha:color.alpha];
     
     [storage endEditing];
-    
+    [textLayer setTextAlignment:NSTextAlignmentRight];
     [textLayer syncTextStyleAttributes];
+    [textLayer setTextColor:[CSK_MSColor colorWithRed:0.5 green:0.5 blue:0.5 alpha:1]];
     [textLayer layerDidChange];
     
     [textLayer invalidateLightweightCopy:nil];

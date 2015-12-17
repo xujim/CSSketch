@@ -2,7 +2,7 @@ var CSSketchContext = null;
 
 var layoutLayers = function(context) {
   CSSketchContext = context;
-
+  log("hello,world");
   if (loadCSSketchAsNeeded()) {
     var mainController = CSKMainController.sharedInstance();
     mainController.layoutLayersWithContext(context);
@@ -32,6 +32,8 @@ function loadCSSketchAsNeeded() {
 function loadBundle(filename) {
   var pluginURL = pluginPathURL();
   var bundleURL = pluginURL.URLByAppendingPathComponent(filename);
+  // var doc = CSSketchContext.document;
+  // doc.showMessage(bundleURL);
   var bundle = [NSBundle bundleWithURL: bundleURL];
 	if (!bundle) {
 		showNotification("Bundle missing!");

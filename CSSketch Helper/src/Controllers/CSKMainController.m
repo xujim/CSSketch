@@ -182,6 +182,10 @@ static const char * kCSKDocumentControllerAssociatedObjectKey = "kCSKDocumentCon
     }); // Open Panel file callback
 }
 
+- (void)transform2StyleKit:(NSDictionary *)context{
+    
+}
+
 - (void)layoutLayersWithContext:(NSDictionary *)context {
     self.domModels = [NSArray array];
     

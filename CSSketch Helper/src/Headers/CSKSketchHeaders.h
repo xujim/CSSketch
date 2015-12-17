@@ -36,7 +36,6 @@
     @property(retain, nonatomic) CSK_MSStylePartCollection *fills;
 @end
 
-
 @interface CSK_MSStyleFill
     @property(nonatomic) unsigned long long fillType;
     @property(copy, nonatomic) CSK_MSColor *color;
@@ -102,6 +101,11 @@ static const long long CSKMSLayerDirtyTypeTextColor = 3;
     - (void)layerDidChange;
     - (void)syncTextStyleAttributes;
     - (void)prepareForUndo;
+    - (void)setTextAlignment:(NSTextAlignment)mode;
+@end
+
+@interface CSK_MSBitmapLayer:CSK_MSLayer
+@property (readonly) NSImage *NSImage;
 @end
 
 @interface CSK_MSPage : CSK_MSLayer

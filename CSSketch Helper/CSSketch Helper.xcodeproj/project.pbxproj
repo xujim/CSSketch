@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA0E95DB1BCB279C00CDD8EF /* NSString+Paths.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0E95DA1BCB279C00CDD8EF /* NSString+Paths.m */; settings = {ASSET_TAGS = (); }; };
-		FA20626E1BC21C4B003079A1 /* CSKStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FA20626D1BC21C4B003079A1 /* CSKStylesheet.m */; settings = {ASSET_TAGS = (); }; };
-		FA2FE3B71BC71BCD0017A90A /* embedded.css in Resources */ = {isa = PBXBuildFile; fileRef = FA2FE3B61BC71BCD0017A90A /* embedded.css */; settings = {ASSET_TAGS = (); }; };
-		FA2FE3BB1BC85F6F0017A90A /* CSKLayerCSS.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2FE3BA1BC85F6F0017A90A /* CSKLayerCSS.m */; settings = {ASSET_TAGS = (); }; };
+		FA0E95DB1BCB279C00CDD8EF /* NSString+Paths.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0E95DA1BCB279C00CDD8EF /* NSString+Paths.m */; };
+		FA20626E1BC21C4B003079A1 /* CSKStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FA20626D1BC21C4B003079A1 /* CSKStylesheet.m */; };
+		FA2FE3B71BC71BCD0017A90A /* embedded.css in Resources */ = {isa = PBXBuildFile; fileRef = FA2FE3B61BC71BCD0017A90A /* embedded.css */; };
+		FA2FE3BB1BC85F6F0017A90A /* CSKLayerCSS.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2FE3BA1BC85F6F0017A90A /* CSKLayerCSS.m */; };
 		FA38F4B01BC325D200787508 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA38F4AF1BC325D200787508 /* AppKit.framework */; };
-		FA38F4B41BC3272100787508 /* CSKToolbarProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA38F4B31BC3272100787508 /* CSKToolbarProxy.m */; settings = {ASSET_TAGS = (); }; };
-		FA38F4B71BC33AB900787508 /* icon-layout.png in Resources */ = {isa = PBXBuildFile; fileRef = FA38F4B61BC33AB900787508 /* icon-layout.png */; settings = {ASSET_TAGS = (); }; };
-		FA38F4B91BC3A70F00787508 /* icon-layout24.png in Resources */ = {isa = PBXBuildFile; fileRef = FA38F4B81BC3A70F00787508 /* icon-layout24.png */; settings = {ASSET_TAGS = (); }; };
-		FA38F4BE1BC3C93F00787508 /* RegExCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = FA38F4BD1BC3C93F00787508 /* RegExCategories.m */; settings = {ASSET_TAGS = (); }; };
-		FA56F7E01BC0DDE7005673E0 /* CSKFileMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = FA56F7DF1BC0DDE7005673E0 /* CSKFileMonitor.m */; settings = {ASSET_TAGS = (); }; };
+		FA38F4B41BC3272100787508 /* CSKToolbarProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA38F4B31BC3272100787508 /* CSKToolbarProxy.m */; };
+		FA38F4B71BC33AB900787508 /* icon-layout.png in Resources */ = {isa = PBXBuildFile; fileRef = FA38F4B61BC33AB900787508 /* icon-layout.png */; };
+		FA38F4B91BC3A70F00787508 /* icon-layout24.png in Resources */ = {isa = PBXBuildFile; fileRef = FA38F4B81BC3A70F00787508 /* icon-layout24.png */; };
+		FA38F4BE1BC3C93F00787508 /* RegExCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = FA38F4BD1BC3C93F00787508 /* RegExCategories.m */; };
+		FA56F7E01BC0DDE7005673E0 /* CSKFileMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = FA56F7DF1BC0DDE7005673E0 /* CSKFileMonitor.m */; };
 		FA56F7E31BC0E15E005673E0 /* CSSketch Helper.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA56F7CF1BC0D6C4005673E0 /* CSSketch Helper.bundle */; };
-		FA7D76C21BC1A5BA00FCDEF5 /* CSKLess.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D76C11BC1A5BA00FCDEF5 /* CSKLess.m */; settings = {ASSET_TAGS = (); }; };
+		FA7D76C21BC1A5BA00FCDEF5 /* CSKLess.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D76C11BC1A5BA00FCDEF5 /* CSKLess.m */; };
 		FA7D76D81BC1AB6900FCDEF5 /* CSK_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D76D71BC1AB6900FCDEF5 /* CSK_Tests.m */; };
 		FA7D76E41BC1ABFD00FCDEF5 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7D76E21BC1ABF600FCDEF5 /* JavaScriptCore.framework */; };
 		FA7D76E61BC1CAC900FCDEF5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7D76E51BC1CAC900FCDEF5 /* WebKit.framework */; };
 		FA7D76EB1BC1CBFB00FCDEF5 /* CSSketch Helper in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7D76EA1BC1CBFB00FCDEF5 /* CSSketch Helper */; };
-		FA7D76EE1BC1CC1B00FCDEF5 /* CSKDOM.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D76ED1BC1CC1B00FCDEF5 /* CSKDOM.m */; settings = {ASSET_TAGS = (); }; };
-		FA8BA46B1BD1778100AA5808 /* external in Resources */ = {isa = PBXBuildFile; fileRef = FA8BA46A1BD1778100AA5808 /* external */; settings = {ASSET_TAGS = (); }; };
-		FACF8FBA1BCC28320062D8F8 /* CSKDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF8FB91BCC28320062D8F8 /* CSKDocumentController.m */; settings = {ASSET_TAGS = (); }; };
-		FACF8FBE1BCC2DB10062D8F8 /* CSKLayers.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF8FBD1BCC2DB10062D8F8 /* CSKLayers.m */; settings = {ASSET_TAGS = (); }; };
-		FADE15451BC2644D002FDE5C /* CSKSketchHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE15441BC2644D002FDE5C /* CSKSketchHeaders.m */; settings = {ASSET_TAGS = (); }; };
-		FADE15481BC26492002FDE5C /* CSKMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE15471BC26492002FDE5C /* CSKMainController.m */; settings = {ASSET_TAGS = (); }; };
+		FA7D76EE1BC1CC1B00FCDEF5 /* CSKDOM.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D76ED1BC1CC1B00FCDEF5 /* CSKDOM.m */; };
+		FA8BA46B1BD1778100AA5808 /* external in Resources */ = {isa = PBXBuildFile; fileRef = FA8BA46A1BD1778100AA5808 /* external */; };
+		FACF8FBA1BCC28320062D8F8 /* CSKDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF8FB91BCC28320062D8F8 /* CSKDocumentController.m */; };
+		FACF8FBE1BCC2DB10062D8F8 /* CSKLayers.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF8FBD1BCC2DB10062D8F8 /* CSKLayers.m */; };
+		FADE15451BC2644D002FDE5C /* CSKSketchHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE15441BC2644D002FDE5C /* CSKSketchHeaders.m */; };
+		FADE15481BC26492002FDE5C /* CSKMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE15471BC26492002FDE5C /* CSKMainController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,6 +86,7 @@
 		FADE15461BC26492002FDE5C /* CSKMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSKMainController.h; sourceTree = "<group>"; };
 		FADE15471BC26492002FDE5C /* CSKMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSKMainController.m; sourceTree = "<group>"; };
 		FADE15491BC26738002FDE5C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FADF24431C22A0DB00EDD4BB /* Sketch.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = Sketch.app; path = ../../../../../../../../Applications/Sketch.app; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +287,7 @@
 		FA7D76EF1BC1CC2900FCDEF5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FADF24431C22A0DB00EDD4BB /* Sketch.app */,
 				FA38F4AF1BC325D200787508 /* AppKit.framework */,
 				FA7D76E51BC1CAC900FCDEF5 /* WebKit.framework */,
 				FA7D76E21BC1ABF600FCDEF5 /* JavaScriptCore.framework */,
